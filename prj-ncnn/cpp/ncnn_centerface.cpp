@@ -1,3 +1,8 @@
+#include <limits>
+#define NOMINMAX
+#include <windows.h>
+#undef NOMINMAX
+
 #include "ncnn_centerface.h"
 
 
